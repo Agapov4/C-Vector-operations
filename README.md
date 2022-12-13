@@ -11,7 +11,7 @@ Out:
 
 > _{33, 44, 55, 66, 77, 88, 99, 111}_
 
-### **Slicing of C++ std::vector.**
+### **Slicing of std::vector.**
 
 Works similar to slicing in Python.
 
@@ -24,7 +24,7 @@ Out:
 
 > _{55, 66, 77}_
 
-### **Concatenation of C++ std::vector.**
+### **Concatenation of std::vector.**
 
 Works similar to numpy.concatenate().
 
