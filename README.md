@@ -1,6 +1,6 @@
 ## **Python-like C++ std::vector operations**
 
-### **Print of std::vector:**
+### **Print of std::vector**
 
 ```plaintext
 std::vector<int> a = {33,44,55,66,77,88,99,111};
@@ -11,7 +11,7 @@ Out:
 
 > _{33, 44, 55, 66, 77, 88, 99, 111}_
 
-### **Slicing of std::vector.**
+### **Slicing of std::vector**
 
 Works similar to slicing in Python.
 
@@ -24,7 +24,7 @@ Out:
 
 > _{55, 66, 77}_
 
-### **Concatenation of std::vector.**
+### **Concatenation of std::vector**
 
 Works similar to numpy.concatenate().
 
