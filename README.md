@@ -1,17 +1,17 @@
 # Python-like C++ std::vector operations
 
 ## Quick print of std::vector:
-`std::vector<int> a = {33,44,55,66,77,88,99,111};
-printVector(a);`
+`std::vector<int> a = {33,44,55,66,77,88,99,111};`
+`printVector(a);`
 
 Out:
 > {33, 44, 55, 66, 77, 88, 99, 111}
 
 ## Operation for slicing of C++ std::vector.
-Works like slicing in Python.
+Works similar to slicing in Python.
 
-`std::vector<int> b = slice(a, 2, -3);
-printVector(b);`
+`std::vector<int> b = slice(a, 2, -3);`
+`printVector(b);`
 
 Out:
 > {55, 66, 77}
@@ -32,10 +32,10 @@ Out:
 
 
 # Example:
-`#include <vector>
-#include "vector_operations.h"
+`#include <vector>`
+`#include "vector_operations.h"`
 
-int main() {
+`int main() {
 	std::vector<int> a = {33,44,55,66,77,88,99,111};
 	printVector(a);
 	
